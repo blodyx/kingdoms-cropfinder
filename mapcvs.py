@@ -15,7 +15,6 @@ data = json.load(res)
 r = int(data[u'response'][u'map'][u'radius'])
 
 map = [[0 for x in range(2*r+1)] for y in range (2*r+1)]
-counter = [[0 for x in range(2*r+1)] for y in range (2*r+1)]
 oasisMap = [[0 for x in range(2*r+1)] for y in range (2*r+1)]
 
 
